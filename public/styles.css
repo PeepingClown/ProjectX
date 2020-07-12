@@ -1,0 +1,37 @@
+    .navbar
+    {
+      padding: 10px 20px;
+      margin-bottom: 100px;
+    }
+    .login-btn
+    {
+      border:0px;
+      border-radius: 10px;
+      background-color: #fe346e;
+      box-shadow: 8px 8px 12px rgba(0,0,0,0.2),
+                  -8px -8px 10px rgba(255,255,255,0.22),
+                  inset 2px 2px 4px rgba(255,255,255,0.25),
+                  inset -2px -2px 6px rgba(0,0,0,0.2);
+      transition-duration: 0.2s;
+    }
+    .login-btn:hover
+    {
+      box-shadow: 2px 2px 6px rgba(255,255,255,0.25),
+                  -2px -2px 6px rgba(0,0,0,0.2),
+                  inset -4px -4px 6px rgba(255,255,255,0.25),
+                  inset 4px 4px 6px rgba(0,0,0,0.2);
+    }
+    .heading-div
+    {
+      background-image: url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      padding: 50px 60px 10px;
+      height: 500px;
+    }
+    .branding
+    {
+      color: white;
+    }
