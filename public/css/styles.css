@@ -1,0 +1,162 @@
+    .navbar
+    {
+      padding: 10px 20px;
+      margin-bottom: 50px;
+    }
+    .login-btn
+    {
+      border:0px;
+      border-radius: 10px;
+      height: 60px;
+      background-color: #f67280;
+      box-shadow: 3px 3px 2px rgba(0,0,0,0.4);
+
+      transition-duration: 0.2s;
+    }
+    .login-btn:hover
+    {
+      box-shadow: 2px 2px 6px rgba(255,255,255,0.25),
+                  -2px -2px 6px rgba(0,0,0,0.2),
+                  inset -4px -4px 6px rgba(255,255,255,0.25),
+                  inset 4px 4px 6px rgba(0,0,0,0.2);
+    }
+    .login-text
+    {
+      color: white;
+    }
+    .heading-div
+    {
+      background-image: url("../images/new2.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      padding: 50px 60px 10px;
+      height: 800px;
+    }
+    .heading-div > svg{
+      display: block;
+
+    }
+    svg.first
+    {
+      position: absolute;
+      z-index: -1;
+      top: 750px;
+    }
+    svg.second
+    {
+      position: absolute;
+      z-index: -2;
+      top: 750px;
+    }
+
+    .branding
+    {
+      color: white;
+    }
+    .features
+    {
+      text-align: center;
+      height: 100px;
+      width: 100px;
+      padding: 15px 10px 10px;
+
+    }
+    .quick
+    {
+      border-radius: 20px;
+      padding: 20px;
+      transition-duration: 0.3s;
+    }
+    .quick:hover
+    {
+      background-color: #b2ebf2;
+      box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    }
+    a:hover
+    {
+      text-decoration: none;
+    }
+   .a
+   {
+      margin-bottom: 50px;
+   }
+   .work
+   {
+     background-color: #ddf3f5;
+     border-radius: 20px;
+     padding: 20px 30px 30px 30px;
+     width: 80%;
+     opacity: 0.95;
+     z-index: 1;
+     position: absolute;
+     top: 700px;
+    left: 50%;
+    margin-left: -38%;
+    box-shadow: 8px 8px 12px rgba(0,0,0,0.2);
+   }
+
+   .searches
+   {
+     text-align: center;
+   }
+   input:focus
+   {
+     outline: none;
+   }
+   .getit
+   {
+     display: inline-block;
+     height: 10%;
+   }
+   .find
+   {
+     border-radius: 50px;
+     padding: 5px 20px 0px;
+     border: 0px;
+     background-color: #f67280;
+     box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+     transition-duration: 0.2s;
+   }
+   .find:hover
+   {
+     box-shadow: 2px 2px 6px rgba(255,255,255,0.25),
+                 -2px -2px 6px rgba(0,0,0,0.2),
+                 inset -4px -4px 6px rgba(255,255,255,0.25),
+                 inset 4px 4px 6px rgba(0,0,0,0.2);
+   }
+   .find-text
+   {
+     font-family: 'Ubuntu', sans-serif;
+   }
+   button:focus
+   {
+     outline: none;
+   }
+
+   .searchbar{
+   margin-bottom: auto;
+   margin-top: auto;
+   height: 70px;
+   background-color: #fae3d9;
+   border-radius: 50px;
+   padding: 15px ;
+   box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+   }
+
+   .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 0 10px;
+    background-color: #fae3d9;
+    margin: 0px 0px 10px 0px;
+    width: 550px;
+    caret-color:red;
+  }
+ .slogan
+ {
+   text-align: center;
+   margin-bottom: 50px;
+ }
