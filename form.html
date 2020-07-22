@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<style>
+		.center {
+  			margin: auto;
+  			width: 24%;
+		}
+	</style>
+	<title>My form for getting data.</title>
+</head>
+<body>
+	<div class="center">
+		<p1>
+			<b style="font-size:18px;">This is my form for getting data.</b><br><br>
+		</p1>
+		<form action="action_form.php" method="post">
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname"><br><br>
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname"><br><br>
+			<label for="degree">Educational Qualification:</label><br>
+			<input list="degree" name="degree"><br><br>
+				<datalist id="degree">
+					<option value="10/12">
+					<option value="Bachelors">
+					<option value="Masters">
+					<option value="Doctorate">
+				</datalist>
+			<label for="exp">Experience</label><br>
+			<textarea id="exp" name="exp" rows="8" cols="80"></textarea><br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+</body>
+</html>
+
